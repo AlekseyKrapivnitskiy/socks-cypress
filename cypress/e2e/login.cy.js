@@ -1,10 +1,10 @@
+import HomePage from '../pages/HomePage'
+
 describe('Login test', () => {
     it('Login positive', () => {
-      cy.visit('http://localhost/index.html')
+      const home = new HomePage();
 
-      cy.get('#login').click()
-      cy.get('#username-modal').type('test1')
-      cy.get('#password-modal').type('123')
-      cy.get('button[class="btn btn-primary"]').click()
+      home.open();
+      home.logIn(test1, 123);
     })
   })
