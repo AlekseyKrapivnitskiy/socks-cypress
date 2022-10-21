@@ -5,6 +5,6 @@ describe('Login test', () => {
       const home = new HomePage();
 
       home.open();
-      home.logIn(test1, 123);
+      home.logIn('test1', 123);
     })
   })

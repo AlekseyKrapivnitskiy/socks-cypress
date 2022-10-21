@@ -17,7 +17,7 @@ class HomePage {
 
         this.loginModal.fillLoginInput(login);
         this.loginModal.fillPasswordInput(password);
-        this.loginModal.clickOnLogInButton;
+        this.loginModal.clickOnLogInButton();
     }
 }
 

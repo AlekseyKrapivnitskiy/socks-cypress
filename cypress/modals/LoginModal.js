@@ -8,7 +8,7 @@ class LoginModal {
     }
 
     clickOnLogInButton() {
-        cy.get('button[class="btn btn-primary"]').click()
+        cy.get('button[onclick*=login]').click();
     }
 }
 
